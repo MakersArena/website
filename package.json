@@ -1,0 +1,23 @@
+{
+  "name": "makersarena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakersArena/website.git"
+  },
+  "author": "rraagghhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakersArena/website/issues"
+  },
+  "homepage": "https://github.com/MakersArena/website#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
