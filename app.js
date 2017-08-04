@@ -4,6 +4,10 @@ const express = require('express');
 
 const app = express();
 
+app.get( '/image/MakersArena.jpeg', (req, res, next) => {
+  res.sendfile( 'image/MakersArena.jpeg' );
+});
+
 app.get( '/', (req, res, next) => {
   res.sendfile( 'index.html' );
 });
